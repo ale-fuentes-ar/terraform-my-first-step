@@ -14,4 +14,5 @@ For see documnetation's terraform, please visit next link [configuration terrafo
 
 
 <!-- links and tools -->
-[link-terraform-configuration] https://www.terraform.io/docs/configuration/syntax.html
+
+[link-terraform-configuration]: https://www.terraform.io/docs/configuration/syntax.html
