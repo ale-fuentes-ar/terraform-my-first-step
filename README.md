@@ -9,8 +9,30 @@
 
 ## Intro and Docs
 
-For see documnetation's terraform, please visit next link [configuration terraform][link-terraform-configuration].
 
+### HCL is similar yaml ?
+
+This low-level syntax of the Terraform language is defined in terms of a syntax calle HCL. For see documnetation's terraform, please visit next link [configuration terraform][link-terraform-configuration].
+
+### Running Terraform from docker container
+
+```shell
+docker run -it -v $PWD:/app -w /app --entrypoint "" hashicorp/terraform:light sh
+```
+
+**first configuration**
+Now need configuration enviroment variables.
+
+* AWS_ACCESS_KEY_ID
+* AWS_SECRET_ACCESS_KEY
+
+```shell
+# set my access key
+export AWS_ACCESS_KEY_ID=<MY_ACCESS_KEY_USER>
+
+# set my secret access key
+export AWS_SECRET_ACCESS_KEY=<MY_SECRET_ACCESS_KEY>
+```
 
 
 <!-- links and tools -->
